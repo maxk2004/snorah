@@ -1,8 +1,107 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>Snorah</title>
+<style>
+    body {
+        background-color: rgb(225, 212, 212);
+    }
+
+    .button {
+        background-color: #ffffff;
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 10px 21px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        width: 100%;
+
+    }
+    
+    .button:hover {
+        background-color: #c3d0c3;
+    }
+
+    .dropbtn {
+        background-color: #10ad4c;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        margin: 2px 6px;
+        border-radius: 8px;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .p1 {
+        color: green;
+        font-family: "comic sans ms";
+        text-decoration: underline;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    }
+</style>
+</head>
 <body>
-<h1>Snorah</h1>
-<p>Snorah</p>
+
+<h1 class="p1">Which country is this person from?</h1>
+
+<div id = "myId"></div>
+    <script>
+        var code = `<div class="dropdown">
+                <button class="dropbtn">Wohtah</button>
+                <div class="dropdown-content">
+                    <input type="button" class="button" value="UK">
+                    <input type="button" class="button" value="South Africa">
+                    <input type="button" class="button" value="Australia">
+                    <input type="button" class="button" value="New Zealand">
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Wadder</button>
+                <div class="dropdown-content">
+                    <td><input type="button" class="button" value="US"></td>
+                    <td><input type="button" class="button" value="Canada"></td>
+                </div>
+            </div>`;
+
+        function result() {
+            var score=0;
+            if (document.getElementById('correct1').checked){
+                score++;
+            }
+            alert("Your score is: "+score);
+        }
+
+        document.getElementById("myId").innerHTML = code;
+    </script>
+
 </body>
-<p>Hello world</p>
 </html>
