@@ -62,3 +62,41 @@ h1 {
     padding: 10px;
     text-align: center;
 }
+
+
+/* Initially hide the popup */
+.hidden {
+    display: none;
+}
+
+/* Always show the popup when the 'visible' class is present */
+.visible {
+    display: block;
+}
+
+/* Style the popup as needed */
+#correct {
+    width: 400px;
+    height: 400px;
+    background-color: #04AA6D;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #000;
+    text-align: center;
+}
+
+#incorrect {
+    width: 400px;
+    height: 400px;
+    background-color: #f44336;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #000;
+    text-align: center;
+}
