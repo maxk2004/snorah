@@ -46,7 +46,6 @@ function incorrect() {
 
     var popupImage = document.getElementById('inc');
     var r = Math.floor(Math.random() * incorrectImages.length);
-    console.log(r);
     popupImage.src = incorrectImages[r];
 
     popup.classList.add('visible');
