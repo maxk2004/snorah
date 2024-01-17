@@ -63,7 +63,6 @@ h1 {
     text-align: center;
 }
 
-
 /* Initially hide the popup */
 .hidden {
     display: none;
@@ -97,4 +96,9 @@ h1 {
     transform: translate(-50%, -50%);
     border: 1px solid #000;
     text-align: center;
+}
+
+.score {
+    position: fixed;
+    font-size: 40px;
 }
