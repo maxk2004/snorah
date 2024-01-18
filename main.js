@@ -11,10 +11,12 @@ const correctImages = [
     "https://cdn.discordapp.com/attachments/756248386805563414/1196898858744168609/Clipped_image_20240116_202022.png",
     "https://cdn.discordapp.com/attachments/756248386805563414/1196898859792732190/Clipped_image_20240116_202015.png",
     "https://cdn.discordapp.com/attachments/756248386805563414/1196983716073979995/Clipped_image_20240117_020541.png",
-    "https://cdn.discordapp.com/attachments/756248386805563414/1196984267025154148/Picsart_24-01-17_02-07-14-159.png"
+    "https://cdn.discordapp.com/attachments/756248386805563414/1196984267025154148/Picsart_24-01-17_02-07-14-159.png",
+    "https://cdn.discordapp.com/attachments/756248386805563414/1197211823330557952/Clipped_image_20240116_202230.png"
 ];
 
 const incorrectImages = [
+    "https://cdn.discordapp.com/attachments/756248386805563414/1196992556089757746/Picsart_24-01-17_02-40-38-429.png",
     "https://cdn.discordapp.com/attachments/756248386805563414/1196899287695634502/Clipped_image_20240116_201237.png",
     "https://cdn.discordapp.com/attachments/756248386805563414/1196899288266047508/Clipped_image_20240116_201247.png",
     "https://cdn.discordapp.com/attachments/756248386805563414/1196899289666957342/Clipped_image_20240116_201553.png",
@@ -25,7 +27,8 @@ const incorrectImages = [
     "https://cdn.discordapp.com/attachments/756248386805563414/1196899291676020777/Clipped_image_20240116_201914.png",
     "https://cdn.discordapp.com/attachments/756248386805563414/1196899292275814582/Picsart_24-01-16_20-21-24-454.png",
     "https://cdn.discordapp.com/attachments/756248386805563414/1196983130066792448/Picsart_24-01-17_02-03-10-473.png",
-    "https://cdn.discordapp.com/attachments/756248386805563414/1196984266727366776/Clipped_image_20240117_020729.png"
+    "https://cdn.discordapp.com/attachments/756248386805563414/1196984266727366776/Clipped_image_20240117_020729.png",
+    "https://cdn.discordapp.com/attachments/756248386805563414/1197211823586414633/Picsart_24-01-16_20-22-09-986.jpg"
 ];
 
 
