@@ -1,1 +1,1 @@
-# snorah ♥️
+# snorah
